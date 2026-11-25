@@ -1,0 +1,11 @@
+# Единые переводы строк: LF в репозитории, CRLF для Windows-скриптов
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Бинарные файлы
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.jar binary
+*.zip binary
